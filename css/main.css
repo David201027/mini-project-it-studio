@@ -82,7 +82,7 @@ button {
   top: 0;
   left: 0;
   z-index: 1;
-  background-image: url(../images/hero-m-1x.png);
+  background-image: url(../hero-m-1x.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,7 +234,7 @@ button {
   background-color: grey;
   padding-top: 219px;
   padding-bottom: 335px;
-  background-image: url(../images/hero-m-1x.png);
+  background-image: url(../hero-m-1x.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
