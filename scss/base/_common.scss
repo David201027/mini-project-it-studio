@@ -1,0 +1,18 @@
+.body{
+    font-family: getFont('font-family');
+    font-weight: 400;
+    font-size: 14px;
+}
+h2{
+    color: #323232;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 146%;
+}
+button{
+    border-radius: 30px;
+    background-color: getColor('main');
+    color: getColor('light');
+    font-weight: 500;
+    padding: 14px 36px;
+}

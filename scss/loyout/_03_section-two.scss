@@ -1,0 +1,13 @@
+.section-two{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .section-two{
+        display: block;
+    }
+    .div-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

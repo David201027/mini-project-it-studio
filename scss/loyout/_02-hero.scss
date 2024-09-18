@@ -1,0 +1,102 @@
+.hero{
+    background-color: grey;
+    padding-top: 219px;
+    padding-bottom: 335px;
+    background-image: url(../images/hero-m-1x.png);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    // max-width: 767px;
+}
+.hero-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-text{
+    font-weight: 500;
+    color: getColor('light');
+    margin-bottom: 12px;
+}
+.hero-title{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 134%;
+    color: getColor('light');
+    text-align: center;
+    width: 320px;
+    margin-bottom: 50px;
+}
+.hero-button{
+    border-radius: 30px;
+    background-color: getColor('main');
+    color: getColor('light');
+    font-weight: 500;
+}
+
+@media screen and (min-width: getBreakPoint('tablet')) {
+    .hero{
+        background-image: url(../images/hero-t-1x.png);
+    }
+    .hero-text{
+        font-weight: 500;
+        color: getColor('light');
+        margin-bottom: 12px;
+    }
+    .hero-title{
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 134%;
+        color: getColor('light');
+        text-align: center;
+        width: 340px;
+        margin-bottom: 50px;
+    }
+    .hero-button{
+        border-radius: 30px;
+        width: 200px;
+        height: 45px;
+        background-color: getColor('main');
+        color: getColor('light');
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: getBreakPoint('desktop')) {
+    .hero{
+        background-color: grey;
+        padding-top: 219px;
+        padding-bottom: 335px;
+        background-image: url(../images/hero-d-1x.png);
+        background-position: center 0;
+        background-repeat: no-repeat;
+    }
+    .hero-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-text{
+        font-weight: 500;
+        color: getColor('light');
+        margin-bottom: 20px;
+    }
+    .hero-title{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 134%;
+        color: getColor('light');
+        text-align: center;
+        width: 829px;
+        margin-bottom: 50px;
+    }
+    .hero-button{
+        border-radius: 30px;
+        width: 200px;
+        height: 45px;
+        background-color: getColor('main');
+        color: getColor('light');
+        font-weight: 500;
+    }
+}

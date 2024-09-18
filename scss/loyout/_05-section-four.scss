@@ -1,0 +1,37 @@
+.section-four{
+    padding-top: 46px;
+    padding-bottom: 76px;
+    background: linear-gradient(to bottom, #504DC2 50%, #fff 50%);
+}
+.title-four{
+    color: getColor('light');
+    margin-bottom: 33px;
+}
+.button-four{
+    margin-bottom: 64px;
+}
+.img-four{
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.title-four-small{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.number-four{
+    color: getColor('main');
+}
+.text-four{
+    color: getColor('text');
+    width: 420px;
+    margin-bottom: 47px;
+}
+.link-four{
+    display: block;
+    color: #4985FF;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
