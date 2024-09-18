@@ -63,12 +63,12 @@ button {
 }
 @media screen and (min-width: 768px) {
   .conteiner {
-    width: 768px;
+    width: 718px;
   }
 }
 @media screen and (min-width: 1200px) {
   .conteiner {
-    width: 1200px;
+    width: 1140px;
   }
 }
 
@@ -82,8 +82,8 @@ button {
   top: 0;
   left: 0;
   z-index: 1;
-  background-image: url(../hero-1x-m.jpg);
-  background-position: center top;
+  background-image: url(../pack/hero-1x-m.jpg);
+  background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -92,6 +92,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: end;
 }
 
 .header-list {
@@ -175,7 +176,7 @@ button {
     display: none;
   }
   .header {
-    background-image: url(../images/hero-t-1x.png);
+    background-image: url(../pack/hero-1x-d.jpg);
     height: 80px;
   }
   .header-list {
@@ -213,7 +214,7 @@ button {
     background-color: pink;
     border-bottom: 1px solid #a1a1a1;
     height: 100px;
-    background-image: url(../images/hero-d-1x.png);
+    background-image: url(../pack/hero-1x-d.jpg);
     background-position: center top;
     background-repeat: no-repeat;
   }
@@ -232,9 +233,9 @@ button {
 }
 .hero {
   background-color: grey;
-  padding-top: 219px;
-  padding-bottom: 335px;
-  background-image: url(../hero-1x-m.jpg);
+  padding-top: 103px;
+  padding-bottom: 125px;
+  background-image: url(../pack/hero-1x-m.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -272,7 +273,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url(../images/hero-t-1x.png);
+    background-image: url(../pack/hero-1x-d.jpg);
   }
   .hero-text {
     font-weight: 500;
@@ -302,7 +303,7 @@ button {
     background-color: grey;
     padding-top: 219px;
     padding-bottom: 335px;
-    background-image: url(../images/hero-d-1x.png);
+    background-image: url(../pack/hero-1x-d.jpg);
     background-position: center 0;
     background-repeat: no-repeat;
   }
@@ -476,4 +477,32 @@ button {
   text-align: center;
   color: #999999;
   margin-bottom: 33px;
+}
+
+.section-seven {
+  padding: 70px 0;
+}
+
+.title-seven {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: gtColor("darknes");
+  margin-bottom: 36px;
+}
+
+.text-seven {
+  line-height: 158%;
+  text-align: center;
+  color: #999999;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  height: 48px;
+  border-radius: 30px 0 0 30px;
 }/*# sourceMappingURL=main.css.map */

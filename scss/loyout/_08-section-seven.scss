@@ -1,0 +1,23 @@
+.section-seven{
+    padding: 70px 0;
+}
+.title-seven{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: gtColor('darknes');
+    margin-bottom: 36px;
+}
+.text-seven{
+    line-height: 158%;
+    text-align: center;
+    color: getColor('text');
+}
+.form{
+    display: flex;
+    align-items: center;
+}
+.input{
+    height: 48px;
+    border-radius: 30px 0 0 30px;
+}

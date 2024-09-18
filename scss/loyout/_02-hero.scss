@@ -1,13 +1,12 @@
 .hero{
     background-color: grey;
-    padding-top: 219px;
-    padding-bottom: 335px;
-    background-image: url(../hero-1x-m.jpg);
+    padding-top: 103px;
+    padding-bottom: 125px;
+    background-image: url(../pack/hero-1x-m.jpg);
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    // max-width: 767px;
 }
 .hero-div{
     display: flex;
@@ -37,7 +36,7 @@
 
 @media screen and (min-width: getBreakPoint('tablet')) {
     .hero{
-        background-image: url(../images/hero-t-1x.png);
+        background-image: url(../pack/hero-1x-d.jpg);
     }
     .hero-text{
         font-weight: 500;
@@ -68,7 +67,7 @@
         background-color: grey;
         padding-top: 219px;
         padding-bottom: 335px;
-        background-image: url(../images/hero-d-1x.png);
+        background-image: url(../pack/hero-1x-d.jpg);
         background-position: center 0;
         background-repeat: no-repeat;
     }
