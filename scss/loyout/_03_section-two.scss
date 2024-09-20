@@ -4,10 +4,74 @@
 @media screen and (min-width: 768px) {
     .section-two{
         display: block;
+        padding: 110px 0;
     }
     .div-two{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .list-two{
+        display: flex;
+        align-items: center;
+        margin-bottom: 55px;
+    }
+
+    .item-two{
+        max-width: 353px;
+        width: 30vw;
+        height: 139px;
+        display: flex;
+        gap: 18px;
+        // position: relative;
+    }
+    .item-two::before{
+        content: '';
+        display: flex;
+        width: 40px;
+        max-width: 20px;
+        height: 40px;
+        max-height: 20px;
+        background-image: url(../svg/html.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+        border-radius: 100%;
+        border: 1px solid getColor('main');
+        padding: 25px;
+        justify-content: start;
+    }
+    .title-two{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .text-two{
+        max-width: 730px;
+        line-height: 158%;
+        text-align: center;
+        color: getColor('text');
+        margin-bottom: 70px;
+    }
+    .div-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .title-two-small{
+        font-weight: 600;
+        font-size: 18px;
+        color: getColor('darknes');
+        // position: absolute;
+        // right: 50%;
+        // bottom: 50%;
+    }
+
+    .text-two-small{
+        width: 100%;
+        line-height: 158%;
+        color: getColor('text');
+        // position: absolute;
+        // right: 0;
+        // bottom: 0;
     }
 }

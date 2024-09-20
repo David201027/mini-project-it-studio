@@ -46,16 +46,22 @@
               <p class="text-two">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
               <ul class="list-two">
                 <li class="item-two">
-                  <h3 class="title-two-small">Створення сайтів</h3>
-                  <p class="text-two-small">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
+                  <div class="div-text">
+                    <h3 class="title-two-small">Створення сайтів</h3>
+                    <p class="text-two-small">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
+                  </div>
                 </li>
                 <li class="item-two">
-                  <h3 class="title-two-small">Створення сайтів</h3>
-                  <p class="text-two-small">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
+                  <div class="div-text">
+                    <h3 class="title-two-small">Створення сайтів</h3>
+                    <p class="text-two-small">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
+                  </div>
                 </li>
                 <li class="item-two">
-                  <h3 class="title-two-small">Створення сайтів</h3>
-                  <p class="text-two-small">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
+                  <div class="div-text">
+                    <h3 class="title-two-small">Створення сайтів</h3>
+                    <p class="text-two-small">Lorem Ipsum - це текст-"риба", часто використовує у пресі та веб-дизайні.</p>
+                  </div>
                 </li>
               </ul>
               <button class="button-two">Всі послуги</button>
@@ -63,11 +69,38 @@
         </section>
         <section class="section-three">
           <div class="conteiner div-three">
-            <h2 class="title-three">Високі стандарти розробки</h2>
-            <p class="text-three">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
-            <a href="./" class="link-three">Детальніше про компанію</a>
-            <img src="./pack/second-1x-d.jpg" alt="xxx" class="image-three">
+            <div class="div-text-three">
+              <h2 class="title-three">Високі стандарти розробки</h2>
+              <p class="text-three">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
+              <a href="./" class="link-three">Детальніше про компанію</a>
+            </div>
+            <picture class="image-three">
+              <source 
+                  srcset="./pack/second-1x-d.jpg   1x, 
+                          ./pack/second-2x-d.jpg   2x" 
+                  media="(min-width: 1200px)"
+              >
+              <source 
+                  srcset="./pack/second-1x-t.jpg    1x,
+                          ./pack/second-2x-t.jpg    2x" 
+                  media="(min-width: 768px)"
+              >
+              <source 
+                  srcset="./pack/second-1x-m.jpg   1x,
+                          ./pack/second-2x-m.jpg    2x" 
+                  media="(min-width: 320px)"
+              >
+              <img src="./pack/second-1x-m.jpg" alt="second">
+            </picture>
             <ul class="list-three">
+              <li class="item-three">
+                <h3 class="number">125</h3>
+                <p class="text-three-small">Our projects</p>
+              </li>
+              <li class="item-three">
+                <h3 class="number">125</h3>
+                <p class="text-three-small">Our projects</p>
+              </li>
               <li class="item-three">
                 <h3 class="number">125</h3>
                 <p class="text-three-small">Our projects</p>
@@ -87,33 +120,177 @@
           <div class="conteiner div-four">
             <h2 class="title-four">Наші роботи на яких ми спеціалізуємось</h2>
             <button class="button-four">Всі послуги</button>
-            <img class="img-four" src="./pack/third-1x-m.jpg" alt="xxx">
-            <h3 class="title-four-small"><span class="number-four">01.</span> Дослідження і упаковка</h3>
-            <p class="text-four">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
-            <a href="./" class="link-four">Детальніше</a>
-          </div>
-        </section>
-        <section class="section-five">
-          <div class="conteiner div-six">
-            <h2 class="title-five">Наші проекти</h2>
-            <p class="text-five">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
-            <ul class="list-five">
-              <li class="item-five"><img src="./pack/fourth-1x-m.jpg" alt="xxx"></li>
-              <li class="item-five"><img src="./pack/fourth-1x-m.jpg" alt="xxx"></li>
-              <li class="item-five"><img src="./pack/fourth-1x-m.jpg" alt="xxx"></li>
-              <li class="item-five"><img src="./pack/fourth-1x-m.jpg" alt="xxx"></li>
+            <ul class="list-four">
+              <li class="item-four">
+                <picture class="image-four">
+                  <source 
+                      srcset="./pack/third-2x-d.jpg    1x, 
+                              ./pack/third-2x-d.jpg    2x" 
+                      media="(min-width: 1200px)"
+                  >
+                  <source 
+                      srcset="./pack/third-1x-d.jpg     1x,
+                              ./pack/third-2x-d.jpg    2x" 
+                      media="(min-width: 768px)"
+                  >
+                  <source 
+                      srcset="./pack/third-1x-m.jpg   1x,
+                              ./pack/third-2x-m.jpg    2x" 
+                      media="(min-width: 320px)"
+                  >
+                  <img src="./pack/third-1x-m.jpg" alt="third-1x-d">
+                </picture>
+                <h3 class="title-four-small"><span class="number-four">01.</span> Дослідження і упаковка</h3>
+                <p class="text-four">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
+                <a href="./" class="link-four">Детальніше</a>
+              </li>
+              <li class="item-four">
+                <picture class="image-four">
+                  <source 
+                      srcset="./pack/third-2x-d.jpg    1x, 
+                              ./pack/third-2x-d.jpg    2x" 
+                      media="(min-width: 1200px)"
+                  >
+                  <source 
+                      srcset="./pack/third-1x-d.jpg     1x,
+                              ./pack/third-2x-d.jpg    2x" 
+                      media="(min-width: 768px)"
+                  >
+                  <source 
+                      srcset="./pack/third-1x-m.jpg   1x,
+                              ./pack/third-2x-m.jpg    2x" 
+                      media="(min-width: 320px)"
+                  >
+                  <img src="./pack/third-1x-m.jpg" alt="third-1x-d">
+                </picture>
+                <h3 class="title-four-small"><span class="number-four">01.</span> Дослідження і упаковка</h3>
+                <p class="text-four">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
+                <a href="./" class="link-four">Детальніше</a>
+              </li>
+              <li class="item-four">
+                <picture class="image-four">
+                  <source 
+                      srcset="./pack/third-2x-d.jpg    1x, 
+                              ./pack/third-2x-d.jpg    2x" 
+                      media="(min-width: 1200px)"
+                  >
+                  <source 
+                      srcset="./pack/third-1x-d.jpg     1x,
+                              ./pack/third-2x-d.jpg    2x" 
+                      media="(min-width: 768px)"
+                  >
+                  <source 
+                      srcset="./pack/third-1x-m.jpg   1x,
+                              ./pack/third-2x-m.jpg    2x" 
+                      media="(min-width: 320px)"
+                  >
+                  <img src="./pack/third-1x-m.jpg" alt="third-1x-d">
+                </picture>
+                <h3 class="title-four-small"><span class="number-four">01.</span> Дослідження і упаковка</h3>
+                <p class="text-four">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
+                <a href="./" class="link-four">Детальніше</a>
+              </li>
             </ul>
           </div>
         </section>
-        <section class="section-seven">
+        <section class="section-five">
+          <div class="conteiner div-five">
+            <h2 class="title-five">Наші проекти</h2>
+            <p class="text-five">Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
+            <ul class="list-five">
+              <li class="item-five">
+                <picture class="img-five">
+                  <source 
+                      srcset="./pack/fourth-2x-d.jpg    1x, 
+                              ./pack/fourth-2x-d.jpg    2x" 
+                      media="(min-width: 1200px)"
+                  >
+                  <source 
+                      srcset="./pack/fourth-1x-d.jpg     1x,
+                              ./pack/fourth-2x-d.jpg    2x" 
+                      media="(min-width: 768px)"
+                  >
+                  <source 
+                      srcset="./pack/fourth-1x-m.jpg   1x,
+                              ./pack/fourth-2x-m.jpg    2x" 
+                      media="(min-width: 320px)"
+                  >
+                  <img src="./pack/fourth-1x-m.jpg" alt="third-1x-d">
+                </picture>
+              </li>
+              <li class="item-five">
+                <picture class="img-five">
+                  <source 
+                      srcset="./pack/fourth-2x-d.jpg    1x, 
+                              ./pack/fourth-2x-d.jpg    2x" 
+                      media="(min-width: 1200px)"
+                  >
+                  <source 
+                      srcset="./pack/fourth-1x-d.jpg     1x,
+                              ./pack/fourth-2x-d.jpg    2x" 
+                      media="(min-width: 768px)"
+                  >
+                  <source 
+                      srcset="./pack/fourth-1x-m.jpg   1x,
+                              ./pack/fourth-2x-m.jpg    2x" 
+                      media="(min-width: 320px)"
+                  >
+                  <img src="./pack/fourth-1x-m.jpg" alt="third-1x-d">
+                </picture>
+              </li>
+              <li class="item-five">
+                <picture class="img-five">
+                  <source 
+                      srcset="./pack/fourth-2x-d.jpg    1x, 
+                              ./pack/fourth-2x-d.jpg    2x" 
+                      media="(min-width: 1200px)"
+                  >
+                  <source 
+                      srcset="./pack/fourth-1x-d.jpg     1x,
+                              ./pack/fourth-2x-d.jpg    2x" 
+                      media="(min-width: 768px)"
+                  >
+                  <source 
+                      srcset="./pack/fourth-1x-m.jpg   1x,
+                              ./pack/fourth-2x-m.jpg    2x" 
+                      media="(min-width: 320px)"
+                  >
+                  <img src="./pack/fourth-1x-m.jpg" alt="third-1x-d">
+                </picture>
+              </li>
+              <li class="item-five">
+                <picture class="img-five">
+                  <source 
+                      srcset="./pack/fourth-2x-d.jpg    1x, 
+                              ./pack/fourth-2x-d.jpg    2x" 
+                      media="(min-width: 1200px)"
+                  >
+                  <source 
+                      srcset="./pack/fourth-1x-d.jpg     1x,
+                              ./pack/fourth-2x-d.jpg    2x" 
+                      media="(min-width: 768px)"
+                  >
+                  <source 
+                      srcset="./pack/fourth-1x-m.jpg   1x,
+                              ./pack/fourth-2x-m.jpg    2x" 
+                      media="(min-width: 320px)"
+                  >
+                  <img src="./pack/fourth-1x-m.jpg" alt="third-1x-d">
+                </picture>
+              </li>
+            </ul>
+            <button class="button-five">Всі проекти</button>
+          </div>
+        </section>
+        <section class="section-six">
           <div class="conteiner">
-            <h3 class="title-seven">Підпишіться на нашу розсилку</h2>
-            <p class="text-seven">Корисні статті, акції, новини - отримайте все це зараз!</p>
+            <h3 class="title-six">Підпишіться на нашу розсилку</h2>
+            <p class="text-six-one">Корисні статті, акції, новини - отримайте все це зараз!</p>
             <form class="form">
               <input  class="input" placeholder="Ваш e-mail" type="email">
-              <button type="submit" class="button-seven">Підписатися</button>
+              <button type="submit" class="button-six">Підписатися</button>
             </form>
-            <p class="text-seven">Ми не шлем спам, і не передаємо нікому ваші дані</p>
+            <p class="text-six">Ми не шлем спам, і не передаємо нікому ваші дані</p>
           </div>
         </section>
     </main>

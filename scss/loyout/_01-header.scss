@@ -96,7 +96,31 @@
   list-style: none;
   margin-bottom: 40%;
   gap: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
+.link{
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 134%;
+  color: getColor('text');
+  transition-property: color;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 100ms;
+
+  &:hover{
+    color: getColor('main');
+    
+  }
+}
+
+.active{
+  color: getColor('main');
+}
+
 @media screen and (min-width: getBreakPoint('tablet')) {
   .container-menu{
     display: none;
