@@ -1,7 +1,14 @@
 .section-four{
+    width: 100vw;
     padding-top: 46px;
     padding-bottom: 76px;
     background: linear-gradient(to bottom, #504DC2 50%, #fff 50%);
+}
+.div-four{
+
+    @media (min-width: 320px) and (max-width: 479px) {
+      width: 90vw;
+    }
 }
 .title-four{
     color: getColor('light');

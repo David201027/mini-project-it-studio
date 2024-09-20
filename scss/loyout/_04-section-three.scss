@@ -1,6 +1,16 @@
 .section-three{
     padding: 31px 0;
     background: getColor('backgraund');
+
+    @media (min-width: 320px) and (max-width: 479px) {
+      width: 100vw;
+    }
+}
+.div-three{
+
+    @media (min-width: 320px) and (max-width: 479px) {
+      width: 90vw;
+    }
 }
 .title-three{
     color: #323232;
@@ -29,11 +39,11 @@
 .list-three{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 54px;
+    justify-content: space-between;
     border-top: 1px #e0e0e0 solid;
     padding-top: 24px;
     margin-top: 24px;
+    max-width: 366px;
 }
 .item-three:nth-child(n+4){
     display: none;
@@ -67,6 +77,9 @@
     }
     .div-three{
         position: relative;
+    }
+    .list-three{
+        max-width: 866px;
     }
     .image-three{
         max-width: 500px;

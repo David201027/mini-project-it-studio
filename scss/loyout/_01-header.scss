@@ -19,6 +19,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: end;
+
+  @media (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+  }
 }
 
 .header-list{
@@ -82,7 +86,6 @@
 .menu-container.is-open {
   transform: translateX(0);
 }
-
 .menu-toggle {
   position: absolute;
   top: 20px;
