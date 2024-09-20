@@ -106,6 +106,11 @@ picture {
   align-items: center;
   justify-content: end;
 }
+@media (min-width: 320px) and (max-width: 479px) {
+  .header-div {
+    width: 100%;
+  }
+}
 
 .header-list {
   display: none;
@@ -280,6 +285,11 @@ picture {
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 320px) and (max-width: 479px) {
+  .hero-div {
+    width: 90vw;
+  }
+}
 
 .hero-text {
   font-weight: 500;
@@ -441,6 +451,17 @@ picture {
   padding: 31px 0;
   background: #F6F6F8;
 }
+@media (min-width: 320px) and (max-width: 479px) {
+  .section-three {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .div-three {
+    width: 90vw;
+  }
+}
 
 .title-three {
   color: #323232;
@@ -473,11 +494,11 @@ picture {
 .list-three {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 54px;
+  justify-content: space-between;
   border-top: 1px #e0e0e0 solid;
   padding-top: 24px;
   margin-top: 24px;
+  max-width: 366px;
 }
 
 .item-three:nth-child(n+4) {
@@ -515,6 +536,9 @@ picture {
   .div-three {
     position: relative;
   }
+  .list-three {
+    max-width: 866px;
+  }
   .image-three {
     max-width: 500px;
     max-height: 400px;
@@ -549,9 +573,16 @@ picture {
   }
 }
 .section-four {
+  width: 100vw;
   padding-top: 46px;
   padding-bottom: 76px;
   background: linear-gradient(to bottom, #504DC2 50%, #fff 50%);
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .div-four {
+    width: 90vw;
+  }
 }
 
 .title-four {
@@ -639,12 +670,23 @@ picture {
 .section-five {
   background-color: #F6F6F8;
   padding: 58px 0;
+  background-size: cover;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .section-five {
+    width: 100vw;
+  }
 }
 
 .div-five {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .div-five {
+    width: 90vw;
+  }
 }
 
 .title-five {
@@ -687,6 +729,13 @@ picture {
 }
 .section-six {
   padding: 70px 0;
+  width: 100vw;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .div-six {
+    width: 90vw;
+  }
 }
 
 .title-six {
