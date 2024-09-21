@@ -101,7 +101,7 @@ picture {
   background-image: url(../pack/hero-1x-m.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 100vh;
 }
 
 .header-div {
@@ -270,13 +270,12 @@ picture {
   }
 }
 .hero {
-  background-color: grey;
   padding-top: 103px;
   padding-bottom: 125px;
   background-image: url(../pack/hero-1x-m.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 100vh;
 }
 
 .hero-div {
@@ -337,7 +336,6 @@ picture {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-color: grey;
     padding-top: 219px;
     padding-bottom: 335px;
     background-image: url(../pack/hero-1x-d.jpg);
@@ -391,9 +389,20 @@ picture {
     align-items: center;
     margin-bottom: 55px;
   }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) and (max-width: 999px) {
+  .item-two:nth-child(n+2) {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1000px) and (max-width: 1180px) {
+  .item-two:nth-child(n+3) {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
   .item-two {
     max-width: 353px;
-    width: 30vw;
     height: 139px;
     display: flex;
     gap: 18px;
