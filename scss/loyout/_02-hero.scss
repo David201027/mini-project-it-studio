@@ -6,16 +6,12 @@
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    // width: 100vw;
 }
 .hero-div{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    @media (min-width: 320px) and (max-width: 479px) {
-      width: 90vw;
-    }
 }
 .hero-text{
     font-weight: 500;
