@@ -99,10 +99,9 @@ picture {
   top: 0;
   left: 0;
   z-index: 1;
-  background-image: url(../pack/hero-1x-m.jpg);
+  background-image: url(../pack/hero-1x-d.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
 }
 
 .header-div {
@@ -254,7 +253,6 @@ picture {
     border-bottom: 1px solid #a1a1a1;
     height: 100px;
     background-image: url(../pack/hero-1x-d.jpg);
-    background-position: center top;
     background-repeat: no-repeat;
   }
   .container-menu {
@@ -273,10 +271,9 @@ picture {
 .hero {
   padding-top: 103px;
   padding-bottom: 125px;
-  background-image: url(../pack/hero-1x-m.jpg);
+  background-image: url(../pack/hero-1x-d.jpg);
   background-position: center 0;
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
 }
 
 .hero-div {
@@ -343,17 +340,17 @@ picture {
     background-position: center 0;
     background-repeat: no-repeat;
   }
-  .hero-div {
+  .hero .hero-div {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .hero-text {
+  .hero .hero-text {
     font-weight: 500;
     color: #FFFFFF;
     margin-bottom: 20px;
   }
-  .hero-title {
+  .hero .hero-title {
     font-weight: 800;
     font-size: 48px;
     line-height: 134%;
@@ -362,7 +359,7 @@ picture {
     width: 829px;
     margin-bottom: 50px;
   }
-  .hero-button {
+  .hero .hero-button {
     border-radius: 30px;
     width: 200px;
     height: 45px;
