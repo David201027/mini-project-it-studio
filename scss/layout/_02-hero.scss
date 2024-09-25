@@ -1,6 +1,6 @@
 .hero{
     // background-color: grey;
-    padding-top: 103px;
+    padding-top: 120px;
     padding-bottom: 125px;
     background-image: url(../pack/hero-1x-d.jpg);
     background-position: center 0;
@@ -37,6 +37,7 @@
 @media screen and (min-width: getBreakPoint('tablet')) {
     .hero{
         background-image: url(../pack/hero-1x-d.jpg);
+        padding-top: 140px;
     }
     .hero-text{
         font-weight: 500;
@@ -70,6 +71,10 @@
         background-image: url(../pack/hero-1x-d.jpg);
         background-position: center 0;
         background-repeat: no-repeat;
+
+        @media screen and (min-width: 1920px) {
+          background-size: 100vw;
+        }
     .hero-div{
         display: flex;
         flex-direction: column;

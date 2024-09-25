@@ -1,9 +1,9 @@
 .header{
   width: 100%;
   height: 65px;
+  border-bottom: 1px solid #a1a1a1;
   display: flex;
   align-items: center;
-  border-bottom: 1px getColor('border') solid;
   position: absolute;
   top: 0;
   left: 0;
@@ -164,10 +164,14 @@
 @media screen and (min-width: 1200px) {
     .header{
         background-color: pink;
-        border-bottom: 1px solid #a1a1a1;
+        // border-bottom: 1px solid #a1a1a1;
         height: 100px;
         background-image: url(../pack/hero-1x-d.jpg);
         background-repeat: no-repeat;
+        
+        @media screen and (min-width: 1920px) {
+          background-size: 100vw;
+        }
     }
     .container-menu{
         display: none;
