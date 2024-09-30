@@ -95,8 +95,8 @@
         max-width: 500px;
         max-height: 400px;
         position: absolute;
-        top: -70px;
-        right: 0;
+        top: -30px;
+        right: 10px;
         display: flex;
         justify-content: right;
     }
@@ -123,5 +123,7 @@
     .div-three > picture{
         width: 500px;
         height: 400px;
+        top: 0;
+        right: 30px;
     }
 }
